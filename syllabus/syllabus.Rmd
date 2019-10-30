@@ -1,0 +1,157 @@
+---
+output:
+  html_document:
+    code_folding: hide
+    toc: TRUE
+    toc_float: TRUE
+    theme: flatly
+editor_options: 
+  chunk_output_type: console
+---
+
+
+# MAT 106 - Syllabus
+
+------
+
+```{r setup, include=FALSE}
+library(knitr)
+library(datasets)
+library(tidyverse)
+opts_chunk$set(fig.path = "C:/Users/sugac_000/Desktop/R data/DataVizinR/images")
+opts_chunk$set(echo = TRUE)
+opts_chunk$set(warning = FALSE)
+opts_chunk$set(message = FALSE)
+opts_chunk$set(fig.width = 6.5)
+opts_chunk$set(fig.height = 4)
+opts_chunk$set(fig.retina = 3)
+options(scipen = 999)
+```
+
+# Course Information
+
+## Meeting Times
+
+|Course Location|Meeting Days|Time|
+|:----|:-----|:----|
+|Watson 132|Tuesdays & Thursdays|1:40-2:55pm|
+
+
+## Instructor Information
+
++----------------------------+-------------------------------+------------+
+| Instructor Information     | Office Location               | Hours      |
++============================+===============================+============+
+| Dr. Che Smith              | Main Office <br>              | TBD        |
+|                            | Watson 283                    |            |
++----------------------------+-------------------------------+------------+
+| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | TBD        |
+| (704) 894-2377             | Jay Hurt Hub, Room 212        |            |
++----------------------------+-------------------------------+------------+
+
+
+
+## Course Website
+
+All relevant course information will be posted on the [course page](https://mat106.drchesmith.com), including the weekly schedule, readings, and assignments. 
+
+# Course Description
+
+This course is an introduction to statistics as a science of understanding and analyzing data and a powerful tool to unveil bias, discrimination, and inequity. Students will deepen their understanding of social and economic issues on local and global scales through the analysis of real, compelling datasets using R software.
+
+## Learning Outcomes
+
+Together, we will strive for your individual and collective success in achieving the learning outcomes of this course. At the end of this course, students will be able to:
+
+* Understand each step of the data lifecycle, identify potential sources of statistical and human bias, and determine their implications on the scope of inference.
+* “Think with data” by using statistical software to explore, analyze, visualize, and interpret nontrivial datasets with immediate relevance and importance to their lives.
+* Interpret and communicate results correctly, effectively, and in context without relying on statistical jargon.
+* Critically consume diverse sources of published data to identify, explain, and evaluate instances of inequality between groups; critique data-based claims; and evaluate data-based decisions.
+* Identify and evaluate misuses, distortions, and misrepresentations of data and statistics.
+* Apply their statistical literacy to work toward a more just society.
+
+
+## Curricular Requirements
+
+This course is an introductory course for the Data Science minor and the Applied Mathematics minor; it also satisfies the *Justice, Equality, and Community* and *Mathematical and Quantitative Thought* requirements.
+
+## Prerequisites
+
+There are no prerequisites for this course. The instructor assumes that students have no previous experience with R, computer programming, or statistics.
+
+# Course Materials
+
+## Textbook
+
+Textbook: OpenIntro Statistics <http://openintro.org/os> - Diez, Barr, Çetinkaya-Rundel
+CreateSpace, 3rd Edition, 2015 (ISBN: 978-1943450039)
+
+The textbook is freely available online (http://openintro.org/os). You’re welcome to read on
+screen or print it out. If you prefer a paperback version you can buy it at the cost of printing
+(around $10) on Amazon (http://openintro.org/os). The bookstore will not carry copies
+of this text.
+
+
+## Software
+
+You will need R and RStudio in order to complete the assignments for this course. R and RStudio are installed on all Davidson campus computers. They are also freely available for download here:
+
+R: https://www.r-project.org 
+RStudio: https://www.rstudio.com 
+
+
+Refer to [this tutorial] for detailed instructions on downloading and installing R and RStudio on your personal computer. 
+
+
+# Access and accommodation
+
+The college welcomes requests for accommodations related to disability and will grant those that are determined to be reasonable and maintain the integrity of a program or curriculum. To make such a request or to begin a conversation about a possible request, please contact the Office of Academic Access and Disability Resources, which is located in the Center for Teaching and Learning in the E.H. Little Library: Beth Bleil, Director, bebleil@davidson.edu , 704-894-2129; or Alysen Beaty, Assistant Director, albeaty@davidson.edu , 704-894-2939. It is best to submit accommodation requests within the drop/add period; however, requests can be made at any time in the semester. Please keep in mind that accommodations are not retroactive.
+
+# Attendance policy
+
+Missing class will adversely affect your grade in many ways. In addition, the college attendance policy will be enforced: missing more than 25% of class meetings makes you eligible for a failing grade. Please look carefully at the syllabus during the first week of class. Should there be a conflict between any class session or assignment due date and a religious holiday or observance, athletic contest, or another academic or personal commitment please let me know well in advance. Religious observance warrants a legitimately excused absence. If you must miss class for any reason, excused or otherwise, you are responsible for getting notes from a classmate and turning in all work on time unless otherwise negotiated with me in advance and in writing.
+
+# Course activities
+
+Reading. The textbook is a guide to interactive exploration with R, and you should reproduce all the steps in your own scripts. You should also do (most of) the exercises as you come to them. It is critical to your success that you do this work before you come to class. Otherwise, you will find yourself lost and virtually unable to do the in-class activities or labs.
+
+In-class activities. This course is not a lecture class but a lab, interspersed with discussions and short demonstrations and presentations. Each class session will involve a significant amount of hands-on work with R and data. I will expect you to have completed the assigned reading before you come to class, and be prepared to ask (and answer) questions about the reading.
+
+Labs. Weekly labs will provide you with regular practice with statistics using R. These assignments will build on the material presented in class, but will require you to apply the basic concepts presented in new ways. 
+
+Quizzes. There will be periodic quizzes to assess your mastery of material. All quizzes will take place during class and will be completed individually.
+
+
+# Getting help
+
+It is normal and expected that all students will need help outside of class with the material in this course. Because a language like R is only learned with practice, an important source of help is additional exercises, in the required textbook or optional online resources provided on the course web page. The following additional resources are also available.
+
+AT Sessions. The AT for this class will attend class and help me answer your questions as they arise. There will also be at least two different AT sessions during the week. All students are strongly encouraged to attend an AT session every week.
+
+Office Hours. Office hours are listed at the beginning of this document. It is a good practice to make an appointment with me even if outside of the listed hours of availability.
+
+Math and Science Center. The Math & Science Center offers free assistance to students in all areas of math and science, with a focus on the introductory courses. Trained and highly qualified peers hold one-on-one and small-group tutoring sessions on a drop-in basis or by appointment, as well as timely recap sessions ahead of scheduled reviews. Emphasis is placed on thinking critically, understanding concepts, making connections, and communicating effectively, not just getting correct answers. In addition, students can start or join a study group and use the MSC as a group or individual study space. It is located in the Center for Teaching & Learning (CTL) on the first floor of the College Library, See here for Spring 2020 hours and more information.
+
+Reusing/sharing code. Many of the datasets we will discuss and analyze are publicly available, so they may have been extensively discussed and analyzed. Unless explicitly instructed otherwise, you may use available code and resources for course activities (e.g., Github repos, StackOverflow answers) but you must cite the source of the code/resource within your program files and/or document. Recycled code that is discovered that is not properly cited may be considered as plagiarism. When working in groups on class assignments you are welcome to discuss problems together and ask for general advice, but you may not share or use code from another group.
+
+Honor Code. Please adhere to the Davidson College Honor Pledge.
+
+
+# Grading
+
+Course grades will be computed as follows:
+
+| Category | Percentage | 
+|:----- |---: | 
+| Group assignments | 10% |
+| Labs  | 10% |
+| Problem Sets | 30% |
+| Midterm Exam #1 | 12.5% |
+| Midterm Exam #2 | 12.5% |
+| Final Exam | 25% |
+
+# Course Schedule
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
