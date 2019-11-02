@@ -1,12 +1,12 @@
-# MAT106
+# MAT105
 --------
-MAT 106 - Introduction to Statistics: Statistics for Social Justice
+MAT 105 - Introduction to Statistics: Statistics for Social Justice
 Spring 2020
 Davidson College
 Instructor: Dr. Che Smith
 
 ## Website 
-<https://mat106.drchesmith.com>
+<https://mat105.drchesmith.com>
 
 ## Syllabus
 

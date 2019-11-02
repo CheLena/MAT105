@@ -10,7 +10,7 @@ editor_options:
 ---
 
 
-# MAT 106 
+# MAT 105 
 
 ## Introduction to Statistics: Statistics for Social Justice
 
@@ -54,11 +54,13 @@ options(scipen = 999)
 
 ## Syllabus
 
-The course syllabus can be found [here](https://mat106.drchesmith.com/syllabus.html) .
+The course syllabus can be found [here](https://mat105.drchesmith.com/syllabus.html) .
 
 # Course Schedule
 
 # Tutorials
+
+Start here! [Install R and RStudio](https://mat105.drchesmith.com/tutorial1_Install.html)
 
 ## Create an RStudio Cloud account
 

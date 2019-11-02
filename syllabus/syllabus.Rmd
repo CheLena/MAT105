@@ -10,7 +10,7 @@ editor_options:
 ---
 
 
-# MAT 106 - Syllabus
+# MAT 105 - Syllabus
 
 ------
 
@@ -53,7 +53,7 @@ options(scipen = 999)
 
 ## Course Website
 
-All relevant course information will be posted on the [course page](https://mat106.drchesmith.com), including the weekly schedule, readings, and assignments. 
+All relevant course information will be posted on the [course page](https://mat105.drchesmith.com), including the weekly schedule, readings, and assignments. 
 
 # Course Description
 
