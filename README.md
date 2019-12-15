@@ -1,8 +1,11 @@
 # MAT105
 --------
 MAT 105 - Introduction to Statistics: Statistics for Social Justice
+
 Spring 2020
+
 Davidson College
+
 Instructor: Dr. Che Smith
 
 ## Website 
@@ -12,6 +15,8 @@ Instructor: Dr. Che Smith
 
 ## Tutorials
 
-## Labs
+## Homework
 
 ## Datasets
+
+## Resources
