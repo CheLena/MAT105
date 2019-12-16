@@ -150,6 +150,7 @@ Course grades will be computed as follows:
 | Midterm Exam #2 | 12.5% |
 | Final Exam | 25% |
 
+
 # Course Schedule
 
 

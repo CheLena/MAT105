@@ -1,7 +1,6 @@
 ---
 output:
   html_document:
-    code_folding: hide
     toc: TRUE
     toc_float: TRUE
     theme: flatly
@@ -20,7 +19,7 @@ editor_options:
 library(knitr)
 library(datasets)
 library(tidyverse)
-opts_chunk$set(fig.path = "C:/Users/sugac_000/Desktop/R data/DataVizinR/images")
+#opts_chunk$set(fig.path = "./images/")
 opts_chunk$set(echo = TRUE)
 opts_chunk$set(warning = FALSE)
 opts_chunk$set(message = FALSE)
@@ -30,9 +29,14 @@ opts_chunk$set(fig.retina = 3)
 options(scipen = 999)
 ```
 
+
+![](C:/Users/sugac_000/Desktop/R data/MAT105/images/diverse.png)
+
+
 # Course Information
 
 ## Meeting Times
+------
 
 |Course Location|Meeting Days|Time|
 |:----|:-----|:----|
@@ -40,6 +44,7 @@ options(scipen = 999)
 
 
 ## Instructor Information
+------
 
 +----------------------------+-------------------------------+------------+
 | Instructor Information     | Office Location               | Hours      |
@@ -47,31 +52,33 @@ options(scipen = 999)
 | Dr. Che Smith              | Main Office <br>              | TBD        |
 |                            | Watson 283                    |            |
 +----------------------------+-------------------------------+------------+
-| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | TBD        |
-| (704) 894-2377             | Jay Hurt Hub, Room 212        |            |
+| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | MWF: 1-4pm |
+| (704) 894-2377             | Hurt Hub, Room 212            | TR: 3-5pm  |
 +----------------------------+-------------------------------+------------+
 
 
 ## Syllabus
+------
 
 The course syllabus can be found [here](https://mat105.drchesmith.com/syllabus.html) .
 
 # Course Schedule
+------
 
 # Tutorials
+------
 
 Start here! [Install R and RStudio](https://mat105.drchesmith.com/tutorial1_Install.html)
 
 ## Create an RStudio Cloud account
+------
 
 https://rstudio.cloud
 
 
 
-
-
 # Resource Guide
-
+------
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
