@@ -1,0 +1,244 @@
+---
+title: "MAT 105 - Introduction to Statistics: Statistics for Social Justice" 
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    theme: cosmo
+editor_options: 
+  chunk_output_type: console
+---
+
+
+------
+
+```{r setup, include=FALSE}
+library(knitr)
+library(datasets)
+library(tidyverse)
+#opts_chunk$set(fig.path = "./images/")
+opts_chunk$set(echo = TRUE)
+opts_chunk$set(warning = FALSE)
+opts_chunk$set(message = FALSE)
+opts_chunk$set(fig.width = 6.5)
+opts_chunk$set(fig.height = 4)
+opts_chunk$set(fig.retina = 3)
+options(scipen = 999)
+```
+
+
+![](../images/diverse.png)
+
+
+# Course Information
+
+## Meeting Times
+
+------
+
+|Course Location|Meeting Days|Time|
+|:----|:-----|:----|
+|Watson 132|Tuesdays & Thursdays|1:40-2:55pm|
+
+
+## Instructor Information
+
+------
+
++----------------------------+-------------------------------+---------------+
+| Instructor Information     | Office Location               | Hours         |
++============================+===============================+===============+
+| Dr. Che Smith              | Main Office <br>              | MW: 10-11     |
+|                            | Watson 283                    |               |
++----------------------------+-------------------------------+---------------+
+| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | MWF: 1-4pm    |
+| (704) 894-2377             | Hurt Hub, Room 212            | TR: 3:30-5pm  |
++----------------------------+-------------------------------+---------------+
+
+
+## Syllabus
+
+------
+
+The course syllabus can be found [here](https://mat105.drchesmith.com/syllabus.html) .
+
+
+# Schedule
+
+------
+
+### Week 1
+
+**Topics**
+
+- Course Overview
+- Introduction to Statistics & Data
+
+**Readings**
+
+- OpenIntro Chapter 1
+
+**Assignments**
+
+- [Course intro survey]
+- [Tutorial: Install R and RStudio]
+- [Tutorial: Intro to R and Data]
+- [Homework 1, Due 1/23]
+
+### Week 2
+
+**Topics**
+
+- Introduction to R and R Studio
+- Summarizing and Visualizing data
+
+**Readings**
+
+- OpenIntro Chapter 2
+
+### Week 3
+
+**Topics**
+
+- Introduction to Probability 
+
+**Readings**
+
+- OpenIntro Chapter 3
+
+### Week 4
+
+**Topics**
+
+- Probability distributions 
+- Random variables
+
+**Readings**
+
+- OpenIntro Chapter 4
+
+### Week 5
+
+**Topics**
+
+- Foundations of statistical inference
+- Confidence Intervals
+
+**Readings**
+
+- OpenIntro Chapter 5
+
+### Week 6
+
+**Topics**
+
+- Midterm 1 Review & Exam
+
+### Week 7
+
+**Topics**
+
+- Hypothesis Testing
+
+### Week 8 
+
+<font color="orange">**Spring Break - NO CLASS**</font>
+
+### Week 9
+
+**Topics**
+
+- Sample size & power
+- Data simulation
+
+### Week 10
+
+**Topics**
+
+- Paired data
+- Difference between means
+
+### Week 11
+
+**Topics**
+
+- Midterm 2 Review
+- Midterm 2
+
+### Week 12
+
+**Topics**
+
+- Exploratory data analysis
+
+### Week 13
+
+**Topics**
+
+- Inference for numerical data
+
+**Readings**
+
+- OpenIntro Chapter 7
+
+### Week 14
+
+**Topics**
+
+- Simple Linear Regression
+- Multiple Linear Regression
+
+**Readings**
+
+- OpenIntro Chapter 8
+- OpenIntro Chapters 9.1-9.4
+
+### Week 15
+
+**Topics**
+
+- Inference for categorical data
+- Logistic Regression
+
+**Readings**
+ 
+- OpenIntro Chapter 6
+- OpenIntro Chapter 9.5
+
+### Week 16
+
+**Topics**
+
+- Statistical Study Design
+- Predictive Inference
+
+### Week 17
+
+**Topics**
+ 
+- Statistical Computing
+- Final Exam Review
+
+
+
+
+# Resource Guide
+
+------
+
+## Tutorials
+
+------
+
+Start here! [Install R and RStudio](https://mat105.drchesmith.com/tutorial1_Install.html)
+
+## Create an RStudio Cloud account
+
+------
+
+https://rstudio.cloud
+
+
+------
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
