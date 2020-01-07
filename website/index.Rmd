@@ -1,17 +1,14 @@
 ---
+title: "MAT 105 - Introduction to Statistics: Statistics for Social Justice" 
 output:
   html_document:
     toc: TRUE
     toc_float: TRUE
-    theme: flatly
+    theme: cosmo
 editor_options: 
   chunk_output_type: console
 ---
 
-
-# MAT 105 
-
-## Introduction to Statistics: Statistics for Social Justice
 
 ------
 
@@ -30,12 +27,13 @@ options(scipen = 999)
 ```
 
 
-![](C:/Users/sugac_000/Desktop/R data/MAT105/images/diverse.png)
+![](../images/diverse.png)
 
 
 # Course Information
 
 ## Meeting Times
+
 ------
 
 |Course Location|Meeting Days|Time|
@@ -44,41 +42,215 @@ options(scipen = 999)
 
 
 ## Instructor Information
+
 ------
 
-+----------------------------+-------------------------------+------------+
-| Instructor Information     | Office Location               | Hours      |
-+============================+===============================+============+
-| Dr. Che Smith              | Main Office <br>              | TBD        |
-|                            | Watson 283                    |            |
-+----------------------------+-------------------------------+------------+
-| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | MWF: 1-4pm |
-| (704) 894-2377             | Hurt Hub, Room 212            | TR: 3-5pm  |
-+----------------------------+-------------------------------+------------+
++----------------------------+-------------------------------+---------------+
+| Instructor Information     | Office Location               | Hours         |
++============================+===============================+===============+
+| Dr. Che Smith              | Main Office <br>              | MW: 10-11     |
+|                            | Watson 283                    |               |
++----------------------------+-------------------------------+---------------+
+| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | MWF: 1-4pm    |
+| (704) 894-2377             | Hurt Hub, Room 212            | TR: 3:30-5pm  |
++----------------------------+-------------------------------+---------------+
 
 
 ## Syllabus
+
 ------
 
-The course syllabus can be found [here](https://mat105.drchesmith.com/syllabus.html) .
+The course syllabus can be found [here](../syllabus/syllabus.html) .
 
-# Course Schedule
+
+# Schedule
+
 ------
 
-# Tutorials
+### Week 1
+
+**Topics**
+
+- Course Overview
+- Introduction to Statistics & Data
+- Introductio to R and RStudio
+
+**Readings**
+
+- OpenIntro Chapter 1
+
+**Assignments**
+
+- [Course intro survey](https://forms.gle/S2wWbZr9PiL7Zu746)
+- [Tutorial: Install R and RStudio](../tutorials/tutorial1_install.html)
+- [Tutorial: Intro to R and Data](../tutorials/tutorial2_introRData.html)
+- [Homework 1, Due 1/23](../homework/hw1.html)
+
+### Week 2
+
+**Topics**
+
+- Summarizing and Visualizing data
+
+**Readings**
+
+- OpenIntro Chapter 2
+
+**Assignments**
+
+- [Homework 2, Due 1/30](../homework/hw2.html)
+
+### Week 3
+
+**Topics**
+
+- Introduction to Probability 
+
+**Readings**
+
+- OpenIntro Chapter 3
+
+### Week 4
+
+**Topics**
+
+- Probability distributions 
+- Random variables
+
+**Readings**
+
+- OpenIntro Chapter 4
+
+### Week 5
+
+**Topics**
+
+- Foundations of statistical inference
+- Confidence Intervals
+
+**Readings**
+
+- OpenIntro Chapter 5.1-5.2
+
+### Week 6
+
+**Topics**
+
+- Midterm 1 Review & Exam
+
+### Week 7
+
+**Topics**
+
+- Hypothesis Testing
+
+**Readings**
+
+- OpenIntro Chapter 5.3
+
+### Week 8 
+
+<font color="orange">**Spring Break - NO CLASS**</font>
+
+### Week 9
+
+**Topics**
+
+- Inference for categorical data
+
+**Readings**
+
+- OpenIntro Chapter 6
+
+### Week 10
+
+**Topics**
+
+- Inference for numerical data
+
+**Readings**
+
+- OpenIntro Chapter 7
+
+### Week 11
+
+**Topics**
+
+- Midterm 2 Review & Exam 
+
+### Week 12
+
+**Topics**
+
+- Introduction to linear regression
+- Multiple linear regression
+
+**Readings**
+
+- OpenIntro Chapter 8
+- OpenIntro Chapter 9.1-9.4
+
+### Week 13
+
+**Topics**
+
+- Introduction to logistic regression
+
+**Readings**
+
+- OpenIntro Chapter 9.5
+
+### Week 14
+
+**Topics**
+
+- Other statistical tests and models
+
+**Readings**
+
+
+
+### Week 15
+
+**Topics**
+
+- Statistical study design
+- Sample size & power
+
+**Readings**
+ 
+
+### Week 16
+
+**Topics**
+
+- Putting it all together
+
+### Week 17
+
+**Topics**
+ 
+- Course Wrap-Up
+- Final Exam Review
+
+
+# Resource Guide
+
 ------
 
-Start here! [Install R and RStudio](https://mat105.drchesmith.com/tutorial1_Install.html)
+## Tutorials
+
+------
+
+Start here! [Install R and RStudio](../tutorials/tutorial1_Install.html)
 
 ## Create an RStudio Cloud account
+
 ------
 
 https://rstudio.cloud
 
 
-
-# Resource Guide
 ------
-
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
