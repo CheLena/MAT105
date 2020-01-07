@@ -18,7 +18,7 @@ editor_options:
 library(knitr)
 library(datasets)
 library(tidyverse)
-opts_chunk$set(fig.path = "C:/Users/sugac_000/Desktop/R data/DataVizinR/images")
+opts_chunk$set(fig.path = "../images/")
 opts_chunk$set(echo = TRUE)
 opts_chunk$set(warning = FALSE)
 opts_chunk$set(message = FALSE)
@@ -30,6 +30,8 @@ options(scipen = 999)
 
 # Course Information
 
+***
+
 ## Meeting Times
 
 |Course Location|Meeting Days|Time|
@@ -39,15 +41,15 @@ options(scipen = 999)
 
 ## Instructor Information
 
-+----------------------------+-------------------------------+------------+
-| Instructor Information     | Office Location               | Hours      |
-+============================+===============================+============+
-| Dr. Che Smith              | Main Office <br>              | TBD        |
-|                            | Watson 283                    |            |
-+----------------------------+-------------------------------+------------+
-| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | TBD        |
-| (704) 894-2377             | Jay Hurt Hub, Room 212        |            |
-+----------------------------+-------------------------------+------------+
++----------------------------+-------------------------------+---------------+
+| Instructor Information     | Office Location               | Hours         |
++============================+===============================+===============+
+| Dr. Che Smith              | Main Office <br>              | MW: 10-11     |
+|                            | Watson 283                    |               |
++----------------------------+-------------------------------+---------------+
+| chsmith1@davidson.edu <br> | Data CATS, drop in hours <br> | MWF: 1-4pm    |
+| (704) 894-2377             | Hurt Hub, Room 212            | TR: 3:30-5pm  |
++----------------------------+-------------------------------+---------------+
 
 
 
@@ -61,14 +63,14 @@ This course is an introduction to statistics as a science of understanding and a
 
 ## Learning Outcomes
 
-Together, we will strive for your individual and collective success in achieving the learning outcomes of this course. At the end of this course, students will be able to:
+Together, we will strive for your individual and collective success in achieving the learning outcomes of this course. At the end of this course, you will be able to:
 
 * Understand each step of the data lifecycle, identify potential sources of statistical and human bias, and determine their implications on the scope of inference.
-* “Think with data” by using statistical software to explore, analyze, visualize, and interpret nontrivial datasets with immediate relevance and importance to their lives.
+* “Think with data” by using statistical software to explore, analyze, visualize, and interpret nontrivial datasets with immediate relevance and importance to your life.
 * Interpret and communicate results correctly, effectively, and in context without relying on statistical jargon.
 * Critically consume diverse sources of published data to identify, explain, and evaluate instances of inequality between groups; critique data-based claims; and evaluate data-based decisions.
 * Identify and evaluate misuses, distortions, and misrepresentations of data and statistics.
-* Apply their statistical literacy to work toward a more just society.
+* Apply your statistical literacy to work toward a more just society.
 
 
 ## Curricular Requirements
@@ -91,17 +93,15 @@ screen or print it out. If you prefer a paperback version you can buy it at the 
 (around $10) on Amazon (http://openintro.org/os). The bookstore will not carry copies
 of this text.
 
-
 ## Software
 
 You will need R and RStudio in order to complete the assignments for this course. R and RStudio are installed on all Davidson campus computers. They are also freely available for download here:
 
 R: https://www.r-project.org 
+
 RStudio: https://www.rstudio.com 
 
-
-Refer to [this tutorial] for detailed instructions on downloading and installing R and RStudio on your personal computer. 
-
+Refer to [this tutorial](../tutorials/tutorial1_Install.html) for detailed instructions on downloading and installing R and RStudio on your personal computer. You also have the option of using the cloud version of R, found at <https://rstudio.cloud>; to use this version, you need to set up a free account using your Davidson email address.
 
 # Access and accommodation
 
@@ -113,28 +113,28 @@ Missing class will adversely affect your grade in many ways. In addition, the co
 
 # Course activities
 
-Reading. The textbook is a guide to interactive exploration with R, and you should reproduce all the steps in your own scripts. You should also do (most of) the exercises as you come to them. It is critical to your success that you do this work before you come to class. Otherwise, you will find yourself lost and virtually unable to do the in-class activities or labs.
+_**Reading.**_ The textbook is a guide to learning basic statistics and data analysis using R, and you should reproduce all the steps in your own scripts. You should also do (most of) the exercises as you come to them. We may also have occasional readings outside of the textbook, including news articles, blog posts, and short video clips. It is critical to your success that you do complete all readings before you come to class. Otherwise, you will find yourself lost and virtually unable to do the in-class activities or homework assignments.
 
-In-class activities. This course is not a lecture class but a lab, interspersed with discussions and short demonstrations and presentations. Each class session will involve a significant amount of hands-on work with R and data. I will expect you to have completed the assigned reading before you come to class, and be prepared to ask (and answer) questions about the reading.
+_**Communication on Slack.**_ We will use a [Slack](http://www.slack.com) channel, <https://mat105-introstats.slack.com>, to communicate outside of our class sessions. Many data-focused teams use Slack and similar tools to facilitate communication and collaboration across project teams. Part of your participation grade depends on your engagement in discussions on Slack. [Join](https://join.slack.com/t/mat105-introstats/shared_invite/enQtODk2MjM5ODY2NjEzLTk1Y2M3YmZiNDkzZjlhZGY0YzY5ODdhZjY4ZTBjOTEyYzUyM2U4Yjg5NWU1YWRiMGI4MjdhYzQ3ZTVhZDMxMjk) our class Slack channel. 
 
-Labs. Weekly labs will provide you with regular practice with statistics using R. These assignments will build on the material presented in class, but will require you to apply the basic concepts presented in new ways. 
+_**In-class activities.**_ This course will contain a mixture of short lectures, interspersed with discussions, short demonstrations and presentations. Each class session will involve a significant amount of hands-on work with R and data. I will expect you to have completed the assigned reading _before_ you come to class, and be prepared to ask (and answer) questions about the reading.
 
-Quizzes. There will be periodic quizzes to assess your mastery of material. All quizzes will take place during class and will be completed individually.
+_**Homework.**_ Weekly homework assignments (due most Thursdays, before class) will provide you with regular practice with statistics using R. These assignments will build on the material presented in class, but will require you to apply the basic concepts presented in new ways. Assignments will be posted to the course website on Thursdays after class; they are due at the beginning of class on Thursday of the following week (unless otherwise indicated). You are required to complete all homework assignments individually. You may get help on these assignments from Math and Science Center tutors, from Data CATS consultants, or from me. You may also use any existing advice on the Internet. You may not ask anyone else, at Davidson or elsewhere (including the Internet) to help you solve a problem.
+
+_**Exams.**_ There will be two midterm exams to assess your mastery of the material covered in the course. Both midterm exams will take place during class and will be completed individually. At the end of the semester, you will complete a final exam. 
 
 
 # Getting help
 
-It is normal and expected that all students will need help outside of class with the material in this course. Because a language like R is only learned with practice, an important source of help is additional exercises, in the required textbook or optional online resources provided on the course web page. The following additional resources are also available.
+It is normal and expected that all students will need help outside of class with the material in this course. Because a topic like statistics and a language like R are only learned with practice, an important source of help is additional exercises, in the required textbook or optional online resources provided on the course web page. The following additional resources are also available.
 
-AT Sessions. The AT for this class will attend class and help me answer your questions as they arise. There will also be at least two different AT sessions during the week. All students are strongly encouraged to attend an AT session every week.
+_**Office Hours.**_ I welcome you to visit me during the hours listed at the beginning of this document. It is a good practice to make an appointment with me even if outside of the listed hours of availability. I can also address quick and common questions posted on Slack as a public or direct message tagged to me.
 
-Office Hours. Office hours are listed at the beginning of this document. It is a good practice to make an appointment with me even if outside of the listed hours of availability.
+_**Data CATS.**_ Part of my office hours overlap with [Data CATS](https://hurthub.davidson.edu/data-cats) drop-in hours. Data CATS offers free assistance to students working on data-focused assignments and projects. Student consultants are highly qualified to help you debug R code, understand basic statistics, perform analyses, and make data visualizations. Additionally, I am there most afternoons to work with you. Data CATS is located in the Hurt Hub, in Room 212 (labeled Tresata Analytics Factory). 
 
-Math and Science Center. The Math & Science Center offers free assistance to students in all areas of math and science, with a focus on the introductory courses. Trained and highly qualified peers hold one-on-one and small-group tutoring sessions on a drop-in basis or by appointment, as well as timely recap sessions ahead of scheduled reviews. Emphasis is placed on thinking critically, understanding concepts, making connections, and communicating effectively, not just getting correct answers. In addition, students can start or join a study group and use the MSC as a group or individual study space. It is located in the Center for Teaching & Learning (CTL) on the first floor of the College Library, See here for Spring 2020 hours and more information.
+_**Math and Science Center.**_ The Math & Science Center offers free assistance to students in all areas of math and science, with a focus on the introductory courses. Trained and highly qualified peers hold one-on-one and small-group tutoring sessions on a drop-in basis or by appointment, as well as timely recap sessions ahead of scheduled reviews. Emphasis is placed on thinking critically, understanding concepts, making connections, and communicating effectively, not just getting correct answers. In addition, students can start or join a study group and use the MSC as a group or individual study space. It is located in the Center for Teaching & Learning (CTL) on the first floor of the College Library, See [here](https://www.davidson.edu/offices-and-services/center-teaching-and-learning/student-resources/math-science-and-economics-center) for Spring 2020 hours and more information.
 
-Reusing/sharing code. Many of the datasets we will discuss and analyze are publicly available, so they may have been extensively discussed and analyzed. Unless explicitly instructed otherwise, you may use available code and resources for course activities (e.g., Github repos, StackOverflow answers) but you must cite the source of the code/resource within your program files and/or document. Recycled code that is discovered that is not properly cited may be considered as plagiarism. When working in groups on class assignments you are welcome to discuss problems together and ask for general advice, but you may not share or use code from another group.
-
-Honor Code. Please adhere to the Davidson College Honor Pledge.
+_**Honor Code.**_ Please adhere to the Davidson College Honor Pledge.
 
 
 # Grading
@@ -143,9 +143,9 @@ Course grades will be computed as follows:
 
 | Category | Percentage | 
 |:----- |---: | 
-| Group assignments | 10% |
-| Labs  | 10% |
-| Problem Sets | 30% |
+| Participation | 10% |
+| In Class Labs  | 10% |
+| Homework | 30% |
 | Midterm Exam #1 | 12.5% |
 | Midterm Exam #2 | 12.5% |
 | Final Exam | 25% |
@@ -153,6 +153,47 @@ Course grades will be computed as follows:
 
 # Course Schedule
 
+***
 
+*Note that this schedule is tentative and subject to minor changes. The course site will always have the current schedule, list of assignments and due dates. Major announcements will be made on Slack, mainly to direct your attention to changes listed on the course site.*
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
++-------+------------------------------------------------------+
+|Week   | Topic                                                |
++=======+======================================================+
+| 1     | Introduction to Statistics and Data <br> Introduction to R and RStudio |
++-------+------------------------------------------------------+
+| 2     | Summarizing and Visualizing Data                     |
++-------+------------------------------------------------------+
+| 3     | Introduction to Probability                          |
++-------+------------------------------------------------------+
+| 4     | Probability distributions <br> Random variables      |
++-------+------------------------------------------------------+
+| 5     | Foundations of statistical inference <br> Confidence intervals |
++-------+------------------------------------------------------+
+| 6     | Midterm 1 Review and Exam                            |
++-------+------------------------------------------------------+
+| 7     | Hypothesis Testing                                   |
++-------+------------------------------------------------------+
+| 8     | *SPRING BREAK - NO CLASS*                            |
++-------+------------------------------------------------------+
+| 9     | Inference for categorical data                       |
++-------+------------------------------------------------------+
+| 10    | Inference for numerical data                         |
++-------+------------------------------------------------------+
+| 11    | Midterm 2 Review and Exam                            |
++-------+------------------------------------------------------+
+| 12    | Introduction to linear regression <br> Multiple linear regression |
++-------+------------------------------------------------------+
+| 13    | Introduction to logistic regression                  |
++-------+------------------------------------------------------+
+| 14    | Tuesday, 4/14: *EASTER BREAK - NO CLASS* <br> Other statistical tests and models |
++-------+------------------------------------------------------+
+| 15    | Statistical study design <br> Sample size and power  |
++-------+------------------------------------------------------+
+| 16    | Putting it all together                              |
++-------+------------------------------------------------------+
+| 17    | Course Wrap Up <br> Final Exam Review <br> Final Exam Period begins |
++-------+------------------------------------------------------+
+| 18    | Final Exam Period continues                                              |
++-------+------------------------------------------------------+
+
